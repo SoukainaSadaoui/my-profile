@@ -1,0 +1,19 @@
+body { background:#F7F9FC; color:1746A2;}
+h2 {color:9A1663;font-family : courier;}
+p { font-family : helvetica neue;font-size :20px; font-style:italic;font-weight}
+a { text-decoration : underligne;color :black;font-weight:bold;font-size :25px;}
+a:hover{color : blue; }
+h1 { font-family : serif;font-size:40px;color :EA047E;}
+
+.container{width:700px; margin :50px auto;}
+@media(max-width:960px) {.container {width : 760px;}}
+@media(max-width:720px) {.container {width : 520px;}}
+@media(max-width:500px) {.container {width : 300px;}}
+.card-white {background:white; padding:30px; border-radius:4px; box-shadow:0 10px 30px; rgba(0,0,0,0,0.1);margin:20px;text-align:center;}
+.img-circle {border-radius:50%;}
+.btn-blue {background-color:lightblue;color:white;padding:20px 20px;border-radius:4px;}
+.list-inline {list-style:none; padding-left:0px;}
+.list-inline li {display:inline; padding:10px;}
+.list-inline i {font-size:50px;color:rgb(230,230,230);}
+.list-inline i:hover {font-size:50px;color:#7A4069;}
+#introduction p {margin-bottom:50px;margin-top:50px;}
